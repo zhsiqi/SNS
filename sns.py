@@ -102,4 +102,3 @@ topg.save("topg.graphml")
 print(topg.density()) #密度
 topg.dyad_census() #对普查，结果147, 2177, 2046976
 print(sorted(topg.betweenness(), reverse=True))
-
